@@ -375,7 +375,7 @@
           *ngIf="isoperator && row.Request_status != 'Closed' && row.Request_status != 'Rejected' && (this.userdata['role'] !== 'Observer')"
           (click)="Editrow(row)">edit</mat-icon>
           <mat-icon class="icons-sty">
-            <a href="https://beam.safesiteworks.com/m3south/newbeam1/index.php?PermitNo={{
+            <a href="https://beam.safesiteworks.com/development/m3south/newbeam1/index.php?PermitNo={{
                 row?.PermitNo
               }}" target="_blank">visibility</a></mat-icon>
           <mat-icon (click)="CopyRequest(row, row.Request_status)" class="icons-sty" *ngIf="

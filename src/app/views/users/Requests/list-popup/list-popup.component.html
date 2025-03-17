@@ -2,7 +2,7 @@
 
 <div class="download-sty">
   
-  <a href="https://beam.safesiteworks.com/m3south/newbeam1/index.php?PermitNo={{ Requestdata.PermitNo }}" target="_blank">
+  <a href="https://beam.safesiteworks.com/development/m3south/newbeam1/index.php?PermitNo={{ Requestdata.PermitNo }}" target="_blank">
     <button mat-raised-button color="primary">
       Download
     </button>
@@ -415,7 +415,7 @@
     <div class="card-body">
       <mat-grid-list cols="3" rowHeight="250px">
         <mat-grid-tile *ngFor="let img of images" class="img-div-dty">
-          <img [src]="'https://beam.safesiteworks.com/m3south/beamapi/services/request/'+img.imageName" crossorigin="anonymous">
+          <img [src]="'https://beam.safesiteworks.com/development/m3south/beamapi/services/request/'+img.imageName" crossorigin="anonymous">
         </mat-grid-tile>
       </mat-grid-list>
     </div>
